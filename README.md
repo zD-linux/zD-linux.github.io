@@ -13,6 +13,9 @@ This code was tested on two Intel Xeon CPU E5-1620 machines, connected with a 10
 ### Experiment setting:
 Physical machine A hosts a VM that generates large number of flows and send them to physical machine B. Users can choose to use zD only on VM a or use zD on both VM a and physical machine A.
 
+The figure below shows the detailed queuing architecture of our experiment setting. 
+![Experiment setting](./pictures/queue-architecture.png)
+
 
 ### Configure Machine A (The Sender)
 1. Install OS for hypervisor. We are using Ubuntu 14.04 for our experiment.
