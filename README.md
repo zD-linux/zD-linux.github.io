@@ -98,6 +98,7 @@ The figure below shows the detailed queuing architecture of our experiment setti
     netstat -s | grep retrans
     ```
     monitor throughput: neper will report the total throughput
+    
     monitor latency: tcpdump
     ```
     /* capture packets */
